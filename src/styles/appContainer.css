@@ -1,0 +1,27 @@
+.main_container {
+    text-align: center;
+    padding: 10px;
+    margin: 50px auto;
+    width: 95%;
+    border-radius: 6px;
+    background-color: #DFDCE3;
+}
+
+.intro {
+    padding: 10px;
+    margin: 0 auto;
+    color: black;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.total_medals {
+    margin: 0px auto;
+    width: 90%;
+}
+
+.total_medals, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
