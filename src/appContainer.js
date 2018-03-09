@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import './styles/appContainer.css'
 import {connect} from 'react-redux'
+import SpeedTable from './speedTable'
 
 class appContainer extends PureComponent {
     render() {
@@ -63,6 +64,14 @@ class appContainer extends PureComponent {
                         <td> {sportData.SportList[1].Medals.n_Bronze} </td>
                     </tr>
                 </table>
+
+                <h3> Participants - {sportData.SportList[0].Sport.c_Name} </h3>
+
+                <div className="participants">
+
+                <SpeedTable data={sportData.SportList[0]}/>
+
+                </div>
 
 
             </div>
