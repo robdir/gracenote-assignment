@@ -15,13 +15,22 @@
     border-radius: 6px;
 }
 
-.total_medals {
+.total_medals, .medal_breakdown {
     margin: 0px auto;
     width: 90%;
 }
 
-.total_medals, th, td {
+.total_medals, .medal_breakdown, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+    padding: 15px;
+}
+
+.description {
+    padding-top: 50px;
+    margin: 0 auto;
+    color: black;
+    width: fit-content;
+    border-radius: 6px;
 }
 
