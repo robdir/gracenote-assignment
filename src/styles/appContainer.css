@@ -8,7 +8,8 @@
 }
 
 .intro {
-    padding: 10px;
+    text-decoration: underline;
+    padding: 25px;
     margin: 0 auto;
     color: black;
     width: fit-content;
@@ -23,7 +24,7 @@
 .total_medals, .medal_breakdown, .participants_breakdown, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 25px;
 }
 
 .description {
@@ -32,5 +33,9 @@
     color: black;
     width: fit-content;
     border-radius: 6px;
+}
+
+.table_1, .table_2, .table_3 {
+    padding: 20px;
 }
 
