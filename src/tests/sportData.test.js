@@ -5,7 +5,7 @@ describe('reducer', () => {
     const reducer = sportData
     const initialState = medalData
 
-it ('returns the data as initial state', () => {
+it ('returns the medal data as initial state', () => {
     expect(reducer()).toEqual(initialState)
     })
 })

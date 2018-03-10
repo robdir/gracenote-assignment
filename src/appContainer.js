@@ -92,7 +92,7 @@ class appContainer extends PureComponent {
                         <tr>
                             <td> {sportData.SportList[1].BronzeMedalList[0].Participant.c_Participant} </td>
                             <td> {sportData.SportList[1].BronzeMedalList[0].Event.c_Name} </td>
-                            <td> {sportData.SportList[1].BronzeMedalList[0].Gender.c_Short} </td>
+                            <td> {sportData.SportList[1].BronzeMedalList[0].Gender.c_Name} </td>
                             <td> Bronze </td>
                         </tr>
                     </table>
